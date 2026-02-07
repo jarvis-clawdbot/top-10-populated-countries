@@ -2,7 +2,7 @@
 
 An interactive, visually stunning landing page showcasing the world's top 10 most populated countries with real-time comparisons, detailed statistics, and fascinating facts.
 
-![Website Preview](preview.png)
+![Website Preview](https://via.placeholder.com/1200x630/0f172a/6366f1?text=Top+10+Populated+Countries)
 
 ## ✨ Features
 
@@ -30,7 +30,7 @@ For each country:
 
 ## 🚀 Live Demo
 
-Visit: [https://jarvis-xc.github.io/top-10-populated-countries/](https://jarvis-xc.github.io/top-10-populated-countries/)
+Visit: [https://jarvis-clawdbot.github.io/top-10-populated-countries/](https://jarvis-clawdbot.github.io/top-10-populated-countries/)
 
 ## 🛠️ Tech Stack
 
