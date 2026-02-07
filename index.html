@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 10 Most Populated Countries | Interactive Comparison 2026</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cursor-glow"></div>
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg">
+            <div class="floating-globe"></div>
+            <div class="grid-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <span class="badge">2026 Data</span>
+            <h1>World's <span class="gradient-text">Top 10</span><br>Most Populated Countries</h1>
+            <p class="subtitle">An interactive journey through humanity's largest nations — population, growth, and the stories behind the numbers.</p>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number" data-count="8100">0</span>
+                    <span class="stat-label">Million People</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="10">0</span>
+                    <span class="stat-label">Countries</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number">55%</span>
+                    <span class="stat-label">of World Population</span>
+                </div>
+            </div>
+            <a href="#countries" class="scroll-cta">
+                <span>Explore the World</span>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M7 13l5 5 5-5M7 6l5 5 5-5"/>
+                </svg>
+            </a>
+        </div>
+    </section>
+
+    <!-- Comparison Chart Section -->
+    <section id="countries" class="countries-section">
+        <div class="section-header">
+            <h2>Population <span class="gradient-text">Comparison</span></h2>
+            <p>Click on any country to see detailed information</p>
+        </div>
+        
+        <div class="chart-container">
+            <div class="chart-bars" id="chartBars"></div>
+        </div>
+
+        <div class="country-cards" id="countryCards"></div>
+    </section>
+
+    <!-- Detailed Comparison Table -->
+    <section class="comparison-section">
+        <div class="section-header">
+            <h2>Detailed <span class="gradient-text">Statistics</span></h2>
+            <div class="filter-tabs">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="asia">Asia</button>
+                <button class="filter-btn" data-filter="africa">Africa</button>
+                <button class="filter-btn" data-filter="americas">Americas</button>
+                <button class="filter-btn" data-filter="europe">Europe</button>
+            </div>
+        </div>
+        
+        <div class="table-container">
+            <table class="comparison-table" id="comparisonTable">
+                <thead>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Country</th>
+                        <th>Population (2026)</th>
+                        <th>Growth Rate</th>
+                        <th>Area (km²)</th>
+                        <th>Density/km²</th>
+                        <th>Capital</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody"></tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Fun Facts Section -->
+    <section class="facts-section">
+        <div class="section-header">
+            <h2>Did You <span class="gradient-text">Know?</span></h2>
+            <p>Fascinating insights about our world's most populous nations</p>
+        </div>
+        <div class="facts-grid" id="factsGrid"></div>
+    </section>
+
+    <!-- Insight Cards -->
+    <section class="insights-section">
+        <div class="section-header">
+            <h2>Key <span class="gradient-text">Insights</span></h2>
+            <p>Understanding global population dynamics</p>
+        </div>
+        <div class="insights-grid">
+            <div class="insight-card">
+                <div class="insight-icon">🌏</div>
+                <h3>Asia Dominance</h3>
+                <p>7 of the top 10 most populated countries are in Asia, representing over 50% of the world's population in just 10 nations.</p>
+            </div>
+            <div class="insight-card">
+                <div class="insight-icon">📈</div>
+                <h3>Growth Patterns</h3>
+                <p>India and Nigeria show the highest growth rates among top 10, while China and Russia are experiencing population stabilization.</p>
+            </div>
+            <div class="insight-card">
+                <div class="insight-icon">🏙️</div>
+                <h3>Urbanization</h3>
+                <p>All top 10 countries are experiencing rapid urbanization, with major cities growing at unprecedented rates.</p>
+            </div>
+            <div class="insight-card">
+                <div class="insight-icon">⚡</div>
+                <h3>Digital Transformation</h3>
+                <p>These nations are leading the global digital revolution, with billions coming online for the first time.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>Data Sources: World Bank, United Nations, CIA World Factbook (2026 estimates)</p>
+            <p>Created with 💙 for curious minds</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
